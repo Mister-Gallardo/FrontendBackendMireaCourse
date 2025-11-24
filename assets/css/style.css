@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+header {
+  padding: 16px 0px;
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.header__up {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  padding-bottom: 16px;
+}
+
+.header__up__icon_button {
+  background-color: inherit;
+  border: none;
+  border-radius: 25px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.header__up__icon_button:hover {
+  cursor: pointer;
+  background-color: rgb(245, 245, 245);
+  transition: all 0.2s;
+}
+
+.header__up .header__up__icon_button:active {
+  cursor: pointer;
+  background-color: rgb(230, 230, 230);
+  transition: all 0.2s;
+}
+
+.header__up__a {
+  font-size: 26px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.header__up > div {
+  display: flex;
+  gap: 8px;
+}
+
+header nav {
+  padding-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  gap: 48px;
+  list-style-type: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(114, 110, 141);
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  transition: all 0.2s;
+}
+
+header nav ul li a:hover {
+  border-bottom: 1.5px solid rgb(114, 110, 141);
+  padding-bottom: 2px;
+  transition: all 0.2s;
+}
+
+body header nav ul li a:active {
+  color: rgb(63, 61, 78);
+  border-bottom: 1.5px solid rgb(63, 61, 78);
+  transition: all 0.2s;
+}
+
+.home {
+  margin-top: 56px;
+  display: flex;
+}
+
+.home__first_block {
+  width: 60%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: rgb(42, 37, 76);
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home__first_block h1 {
+  color: white;
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 450;
+}
+
+.home__first_block button {
+  margin-top: 32px;
+  color: white;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: all 0.2s;
+}
+
+.home__first_block button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.25);
+  transition: all 0.2s;
+}
+
+.home__first_block button:active {
+  background-color: rgba(255, 255, 255, 0.4);
+  transition: all 0.2s;
+}
+
+.home__first_block p {
+  color: white;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.home__second_block {
+  width: 40%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: rgb(131, 169, 172);
+}
+
+.home__second_block img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: -4px;
+}
+
+.differenсes {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.differenсes h2 {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.differenсes > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.differenсes > div div {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 12px;
+}
+
+.differenсes > div div h3 {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 350;
+}
+
+.differenсes > div div p {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 320;
+}
+
+.ceramics {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}

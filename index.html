@@ -2,43 +2,119 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fullstack Mirea Course</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="assets/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Avion. Furniture store.</title>
   </head>
   <body>
     <header>
-      <div>
-        <h1>Мой Сайт Fullstack Mirea Course</h1>
+      <div class="container">
+        <div class="header__up">
+          <button
+            type="button"
+            aria-label="Поиск по сайту"
+            class="header__up__icon_button"
+          >
+            <img src="./assets/icons/search.svg" alt="" />
+          </button>
+          <a href="#" class="header__up__a">Avion</a>
+          <div>
+            <button
+              type="button"
+              aria-label="Открыть корзину"
+              class="header__up__icon_button"
+            >
+              <img src="./assets/icons/cart.svg" alt="Корзина" />
+            </button>
+            <button
+              type="button"
+              aria-label="Открыть профиль"
+              class="header__up__icon_button"
+            >
+              <img src="./assets/icons/profile.svg" alt="Корзина" />
+            </button>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Plant pots</a></li>
+            <li><a href="#">Ceramics</a></li>
+            <li><a href="#">Tables</a></li>
+            <li><a href="#">Сhairs</a></li>
+            <li><a href="#">Crockery</a></li>
+            <li><a href="#">Tableware</a></li>
+            <li><a href="#">Cutlery</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul>
-          <li><a href="#home">Главная</a></li>
-          <li><a href="#about">О нас</a></li>
-          <li><a href="#services">Услуги</a></li>
-          <li><a href="#contact">Контакты</a></li>
-        </ul>
-      </nav>
     </header>
     <main>
-      <section id="home">
-        <h2>Добро пожаловать!</h2>
-        <p>Это главная страница нашего веб-приложения.</p>
-      </section>
-      <section id="about">
-        <h2>О нас</h2>
-        <p>
-          Мы компания, которая занимается созданием качественных веб-решений.
-        </p>
-      </section>
-      <section id="services">
-        <h2>Наши услуги</h2>
-        <ul>
-          <li>Веб-разработка</li>
-          <li>Дизайн</li>
-          <li>Консультации</li>
-        </ul>
-      </section>
+      <div class="container">
+        <section class="home" id="home">
+          <div class="home__first_block">
+            <div>
+              <h1>The furniture brand for the future, with timeless designs</h1>
+              <button>View collection</button>
+            </div>
+            <p>
+              A new era in eco friendly furniture with Avelon, the French luxur
+              y retail brand with nice fonts, tasteful colors and a beautiful
+              way to display things digitally using modern web technologies.
+            </p>
+          </div>
+          <div class="home__second_block">
+            <img src="./assets/img/chair.png" alt="Стул" />
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <section class="differenсes" id="differenсes">
+          <h2>What makes our brand different</h2>
+          <div>
+            <div>
+              <img src="./assets/icons/delivery.svg" alt="Быстрая доставка" />
+              <h3>Next day as standard</h3>
+              <p>
+                Order before 3pm and get your order the next day as standard
+              </p>
+            </div>
+            <div>
+              <img src="./assets/icons/success.svg" alt="Быстрая доставка" />
+              <h3>Made by true artisans</h3>
+              <p>
+                Handmade crafted goods made with real passion and craftmanship
+              </p>
+            </div>
+            <div>
+              <img src="./assets/icons/card.svg" alt="Быстрая доставка" />
+              <h3>Unbeatable prices</h3>
+              <p>
+                For our materials and quality you won’t find better prices
+                anywhere
+              </p>
+            </div>
+            <div>
+              <img src="./assets/icons/plant.svg" alt="Быстрая доставка" />
+              <h3>Recycled packaging</h3>
+              <p>
+                We use 100% recycled packaging to ensure our footprint is
+                manageable
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <section class="ceramics" id="ceramics">
+          <h2>Наши услуги</h2>
+          <ul>
+            <li>Веб-разработка</li>
+            <li>Дизайн</li>
+            <li>Консультации</li>
+          </ul>
+        </section>
+      </div>
       <section id="contact">
         <h2>Контакты</h2>
         <p>Email: info@example.com</p>
