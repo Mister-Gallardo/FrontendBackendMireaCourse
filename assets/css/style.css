@@ -259,14 +259,14 @@ body header nav ul li a:active {
   border-radius: 6px;
 }
 
-.ceramics div button h3 {
+.ceramics div button span:first-of-type {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   font-weight: 350;
   text-align: start;
 }
 
-.ceramics div button p {
+.ceramics div button span:last-of-type {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 350;
@@ -351,14 +351,14 @@ body header nav ul li a:active {
   border-radius: 6px;
 }
 
-.popular > div button h3 {
+.popular > div button span:first-of-type {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   font-weight: 350;
   text-align: start;
 }
 
-.popular > div button p {
+.popular > div button span:last-of-type {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 350;
