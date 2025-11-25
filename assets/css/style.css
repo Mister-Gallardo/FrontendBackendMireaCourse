@@ -16,6 +16,7 @@ body,
 header {
   padding: 16px 0px;
   position: sticky;
+  z-index: 100;
   top: 0;
   background-color: rgba(255, 255, 255, 1);
 }
@@ -125,10 +126,10 @@ body header nav ul li a:active {
 .home__first_block button {
   margin-top: 32px;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 300;
-  padding: 12px 24px;
+  padding: 16px 40px;
   border: 0;
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -151,6 +152,7 @@ body header nav ul li a:active {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
+  text-align: justify;
 }
 
 .home__second_block {
@@ -168,7 +170,7 @@ body header nav ul li a:active {
 
 .differenсes {
   width: 100%;
-  margin-top: 80px;
+  margin-top: 104px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -176,7 +178,7 @@ body header nav ul li a:active {
 }
 
 .differenсes h2 {
-  font-size: 22px;
+  font-size: 24px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
@@ -205,13 +207,327 @@ body header nav ul li a:active {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-weight: 320;
+  text-align: justify;
 }
 
 .ceramics {
   width: 100%;
-  margin-top: 80px;
+  margin-top: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 32px;
+}
+
+.ceramics h2 {
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.ceramics > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ceramics > div button {
+  width: 23.5%;
+  border: none;
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: all 0.2s;
+}
+
+.ceramics > div button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  box-shadow: 0 6px 15px rgba(200, 200, 200, 0.1);
+  transition: all 0.2s;
+}
+
+.ceramics > div button:active {
+  transform: scale(1);
+  box-shadow: 0 6px 15px rgba(200, 200, 200, 0.15);
+  transition: all 0.2s;
+}
+
+.ceramics > div button img {
+  border-radius: 6px;
+}
+
+.ceramics div button h3 {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 350;
+  text-align: start;
+}
+
+.ceramics div button p {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 350;
+  text-align: start;
+}
+
+.ceramics > button {
+  align-self: center;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  padding: 16px 40px;
+  border: 0;
+  border-radius: 6px;
+  background-color: rgba(140, 140, 140, 0.2);
+  transition: all 0.2s;
+}
+
+.ceramics > button:hover {
+  cursor: pointer;
+  background-color: rgba(190, 190, 190, 0.2);
+  transition: all 0.2s;
+}
+
+.ceramics > button:active {
+  background-color: rgba(220, 220, 220, 0.2);
+  transition: all 0.2s;
+}
+
+.popular {
+  width: 100%;
+  margin-top: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 32px;
+}
+
+.popular h2 {
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.popular > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular > div > button:first-child {
+  width: 48.774%;
+}
+
+.popular > div > button:not(:first-child) {
+  width: 23.613%;
+}
+
+.popular > div button {
+  border: none;
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: all 0.2s;
+}
+
+.popular > div button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  box-shadow: 0 6px 15px rgba(200, 200, 200, 0.1);
+  transition: all 0.2s;
+}
+
+.popular > div button:active {
+  transform: scale(1);
+  box-shadow: 0 6px 15px rgba(200, 200, 200, 0.15);
+  transition: all 0.2s;
+}
+
+.popular > div button img {
+  border-radius: 6px;
+}
+
+.popular > div button h3 {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 350;
+  text-align: start;
+}
+
+.popular > div button p {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 350;
+  text-align: start;
+}
+
+.popular > button {
+  align-self: center;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  padding: 16px 40px;
+  border: 0;
+  border-radius: 6px;
+  background-color: rgba(140, 140, 140, 0.2);
+  transition: all 0.2s;
+}
+
+.popular > button:hover {
+  cursor: pointer;
+  background-color: rgba(190, 190, 190, 0.2);
+  transition: all 0.2s;
+}
+
+.popular > button:active {
+  background-color: rgba(220, 220, 220, 0.2);
+  transition: all 0.2s;
+}
+
+.invitation {
+  background: #f9f9f9;
+  padding: 80px 24px;
+  border-radius: 12px;
+  width: 100%;
+  margin-top: 104px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
+}
+
+.invitation > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.invitation > div > h2 {
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.invitation > div > p {
+  max-width: 380px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 320;
+  text-align: center;
+}
+
+.invitation > form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 420px;
+}
+
+.invitation > form > input {
+  flex: 1;
+  padding: 16px 24px;
+  border: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background: #efefef;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+}
+
+.invitation > form > input::placeholder {
+  color: #bbbbbb;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 350;
+}
+
+.invitation > form > button {
+  background: rgb(42, 37, 76);
+  color: white;
+  padding: 0 32px;
+  border: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.invitation > form > button:hover {
+  background: #1e1a3d;
+}
+
+.invitation > form > button:active {
+  background: #141229;
+}
+
+.about {
+  width: 100%;
+  margin-top: 104px;
+  display: flex;
+}
+
+.about > div {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-right: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about > div > div > h3 {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.about > div > div > p {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 320;
+  text-align: justify;
+}
+
+.about > div > button {
+  align-self: flex-start;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  padding: 16px 40px;
+  border: 0;
+  border-radius: 6px;
+  background-color: rgba(140, 140, 140, 0.2);
+  transition: all 0.2s;
+}
+
+.about > div > button:hover {
+  cursor: pointer;
+  background-color: rgba(190, 190, 190, 0.2);
+  transition: all 0.2s;
+}
+
+.about > div > button:active {
+  background-color: rgba(220, 220, 220, 0.2);
+  transition: all 0.2s;
+}
+
+.about > img {
+  width: 50%;
+  border: 1px solid rgb(200, 167, 148);
+  border-radius: 10px;
 }
