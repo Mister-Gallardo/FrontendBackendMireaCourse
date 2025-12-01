@@ -8,6 +8,10 @@ body,
   scroll-behavior: smooth;
 }
 
+section {
+  scroll-margin-top: 140px; 
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -169,7 +173,7 @@ body header nav ul li a:active {
   margin-bottom: -4px;
 }
 
-.differenсes {
+.differences {
   width: 100%;
   margin-top: 104px;
   display: flex;
@@ -178,19 +182,19 @@ body header nav ul li a:active {
   gap: 40px;
 }
 
-.differenсes h2 {
+.differences h2 {
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
-.differenсes > div {
+.differences > div {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.differenсes > div div {
+.differences > div div {
   width: 22%;
   display: flex;
   flex-direction: column;
@@ -198,13 +202,13 @@ body header nav ul li a:active {
   gap: 12px;
 }
 
-.differenсes > div div h3 {
+.differences > div div h3 {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   font-weight: 350;
 }
 
-.differenсes > div div p {
+.differences > div div p {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-weight: 320;
