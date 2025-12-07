@@ -9,7 +9,7 @@ body,
 }
 
 section {
-  scroll-margin-top: 140px; 
+  scroll-margin-top: 140px;
 }
 
 .container {
@@ -153,6 +153,7 @@ body header nav ul li a:active {
 }
 
 .home__first_block p {
+  margin-top: 64px;
   color: white;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
@@ -601,7 +602,7 @@ footer {
   justify-content: center;
   width: 100%;
   max-width: 360px;
-  min-width: 300px;
+  min-width: 280px;
 }
 
 .footer__up > div:last-child > form > input {
@@ -703,4 +704,115 @@ footer {
   opacity: 0;
   pointer-events: none;
   transform: translateY(10px);
+}
+
+@media (max-width: 1000px) {
+  header nav ul {
+    gap: 24px;
+  }
+
+  .home {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home__first_block {
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .home__second_block {
+    display: none;
+  }
+
+  .differences > div {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 64px;
+  }
+
+  .differences > div > div {
+    width: 40%;
+  }
+
+  .ceramics > div {
+    flex-wrap: wrap;
+    gap: 20px 64px;
+  }
+
+  .ceramics > div button {
+    width: 42%;
+  }
+
+  .about > div > button {
+    margin-top: 40px;
+  }
+
+  .about > img {
+    display: none;
+  }
+
+  .footer__up {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px 64px;
+  }
+
+  .footer__up > div {
+    width: 35%;
+  }
+}
+
+@media (max-width: 700px) {
+  .popular > div {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 32px;
+  }
+
+  .popular > div > button:first-child {
+    width: 100%;
+  }
+
+  .popular > div > button:not(:first-child) {
+    width: 48%;
+  }
+
+  .footer__up > div {
+    width: 80%;
+  }
+}
+
+@media (max-width: 540px) {
+  header nav ul {
+    gap: 16px 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .differences > div > div {
+    width: 100%;
+  }
+
+  .ceramics > div button {
+    width: 100%;
+  }
+
+  .popular > div > button:not(:first-child) {
+    width: 100%;
+  }
+
+  .footer__up {
+    justify-content: start;
+    gap: 48px 64px;
+  }
+
+  .footer__down {
+    flex-direction: column;
+    align-items: start;
+    row-gap: 24px;
+  }
 }
