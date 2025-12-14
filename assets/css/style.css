@@ -6,6 +6,7 @@ body,
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  color: black
 }
 
 section {
@@ -261,6 +262,7 @@ body header nav ul li a:active {
 }
 
 .ceramics > div button img {
+  width: 100%;
   border-radius: 6px;
 }
 
@@ -354,6 +356,7 @@ body header nav ul li a:active {
 
 .popular > div button img {
   border-radius: 6px;
+  width: 100%;
 }
 
 .popular > div button span:first-of-type {
